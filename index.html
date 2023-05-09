@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faizal Aslam Portfolio Website</title>
+    <meta name="description" content="This website is for the purpose of showcasing my skills and previous works.">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ***** Header ***** -->
+    <header class="header" role="banner" id="top">
+        <div class="row">
+            <nav class="nav" role="navigation">
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="#Home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#About" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#Education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#Contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="header__text-box row">
+            <div class="header__text">
+                <h1 class="heading-primary">
+                    <span>Faizal Aslam</span>
+                </h1>
+                <p class ="motive">Aspiring Software Developer</p>
+                <a href="#Contact" class="btn btn--pink">Contact Me</a>
+            </div>
+        </div>
+      
+    </header>
+
+
+    <!-- About-->
+    <main role="main">
+        <section class="About" id="About">
+            <div class="row">
+                <div class="About_Header">
+                    <h2>About</h2>
+                </div>
+                <div class="About_boxes">
+                    <div class="About_box">
+                        <div class="About_text">
+                            <p>
+                                I am a recent Computer Programming Diploma Graduate from Seneca College, Toronto, Canada.
+                                About two years ago is when I started my learning journey to code and develop the web
+                                stunning and responsive.
+                                I have always been a curious individual, which is why I’d love to collaborate and do
+                                some real-world projects in order to flourish my skills.
+                                I'm not perfect at development of websites however I'm resilient, assertive and stubborn
+                                and I find learning a fascinating process.
+                                I'm eager to learn and grow.
+                            </p>
+                            <a href="#" class="btn">My Resume</a>
+                        </div>
+
+                        <div class="about__photo-container">
+                            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+
+
+    <!-- Education -->
+    <section id="Education">
+        <div class="Education">
+            <h2>Education</h2>
+            <img src="./Images/Seneca_logo.png" class="Seneca_logo" alt="Seneca College" />
+            <img src="./Images/DTU_logo.png" class="DTU_logo" alt="DTU" />
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2022-2023</span>
+                    <h3>Seneca College</h3>
+                    <p><br>Diploma in Computer Programming <br>
+                        <br> Received Honors with 3.8 GPA
+                    </p>
+                </div>
+
+                <br><br>
+
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2020-2021</span>
+                    <h3>Delhi Technological University</h3>
+                    <p>
+                        <br>Bachelor of Technology (B.Tech) Engineering Physics (Dropped-out)<br>
+                        <br> Earned 8.06 SGPA (3 Semesters)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Skills ***** -->
+
+    <section class="Skills" id="Skills">
+        <h2>Skills</h2>
+        <div class="Skills_content">
+            <div>
+                <div class="Skills_text">
+                    <h3>Programming Languages</h3>
+                    <p>
+                        Some of my works include use of these programming languages:
+                    </p>
+                    <div class="icons">
+                    <ul class="Skills_list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+            <div>
+                <div class="Skills_text">
+                    <h3>Frameworks</h3>
+                    <p> Some of my works include use of these frameworks:
+                    </p>
+                    <ul class="Skills_list">
+                        <li>React</li>
+                        <li>Next.js</li>
+                        <li>Node</li>
+                        <li>MongoDB</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ***** Contact ***** -->
+
+    <section class="Contact" id="Contact">
+        <div class="contact-row">
+            <h2>Contact</h2>
+            <div class="contact_info">
+                <div class="contact-form">
+                    <form action="form">
+                        <input type="text" id="name" name="name" placeholder=" John Doe"><br>
+                        <input type="text" id="email" name="email" placeholder="Email"><br>
+                        <input type="text" id="company" name="company" placeholder="Company Name"><br>
+                        <input type="radio" id="Consulting" name="fav_language" value="HTML">
+                        <label for="consulting">Consulting</label><br>
+                        <input type="radio" id="Job" name="fav_language" value="CSS">
+                        <label for="Job">Job</label><br><br>
+                        <textarea name="message" cols="30" rows="10" class="box message" placeholder="message" required=""></textarea>
+                        <input type="submit" value="Submit"><br><br>
+                    </form>
+                
+
+                    <p>Or Email me at:</p><br>
+
+                    <a href="mailto:faizal.aslamwap@gmail.com" class="btn">faizal.aslamwap@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+
+    <footer role="contentinfo" class="footer">
+        <div class="contact-row">
+            <ul class="footer__social-links">
+                <ul class="footer__social-link-item">
+                    <a href="https://github.com/AslamFaizal" title="Link to Github Profile">
+                        <img src="./images/github.png" class="footer__social-image" alt="Github">
+                    </a>
+                </ul>
+                <ul class="footer__social-link-item">
+                    <a href="https://www.linkedin.com/in/faizal-aslam-449304205">
+                        <img src="./Images/Linked_in.png" title="Link to Linkedin Profile" class="footer__social-image"
+                            alt="Linkedin">
+                    </a>
+                </ul>
+            </ul>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+        <img src="./images/Up-Arrow.png" alt="Back to Top" class="back-to-top__image" />
+    </a>
+    <script src="./script.js"></script>
+</body>
+
+</html>
